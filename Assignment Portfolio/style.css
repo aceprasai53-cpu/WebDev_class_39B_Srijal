@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color: #1e3a5f;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+header a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0 10px;
+}
+#introduction {
+    text-align: left;
+    font-weight: bold;
+}
+
+#introduction + p {
+    text-align: justify;
+}
+img {
+    display: block;
+    margin: 20px auto 10px;
+    border-radius: 15px;
+}
+
+img + p {
+    text-align: center;
+    font-weight: bold;
+}
+#experience + ol li:nth-child(odd) {
+    font-weight: bold;
+}
+
+#experience + ol li:nth-child(even) {
+    font-weight: normal;
+}
+table {
+    width: 60%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th {
+    background-color: #1e3a5f;
+    color: white;
+    padding: 12px;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+#projects {
+    text-align: left;
+    font-weight: bold;
+}
+
+#projects + ul {
+    background-color: white;
+    width: 60%;
+    margin: 20px auto;
+    padding: 20px 40px;
+    border-radius: 10px;
+}
+
+#projects + ul li {
+    padding: 8px;
+}
+#video {
+    text-align: left;
+    font-weight: bold;
+}
+
+iframe {
+    display: block;
+    width: 560px;
+    height: 315px;
+    margin: 20px auto;
+    border: none;
+}
